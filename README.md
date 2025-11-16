@@ -22,8 +22,7 @@ error-handling-can-busoff-attack/
 ├─ experiments/
 │  └─ run_experiments.py  # all scenarios (baseline, attack, param variation)
 ├─ analysis/
-│  └─ analysis_busoff.ipynb  # or analysis.py if you prefer scripts
-└─ logs/
+│  └─ analysis_busoff.ipynb 
    ├─ baseline/
    └─ attack/
 ```
