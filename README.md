@@ -1,7 +1,6 @@
 # Project01-Cyber-Physical-IoTSec
 Project01 - Cyber-Physical Systems and IoT Security : 
-**Error Handling of In-vehicle Networks Makes Them Vulnerable
-**
+**Error Handling of In-vehicle Networks Makes Them Vulnerable**
 
 
 ###Suggested folder structure :
