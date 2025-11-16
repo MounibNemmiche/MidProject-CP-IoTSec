@@ -6,30 +6,24 @@ Project01 - Cyber-Physical Systems and IoT Security
 ###Suggested folder structure :
 
 ```markdown
-CAN_Attack_Project/
-├── src/
-│   ├── can_setup.py
-│   ├── config.py
-│   ├── ecu_normal.py
-│   ├── ecu_victim.py
-│   ├── attacker_ecu.py
-│   ├── error_injection.py
-│   ├── attack_scenarios.py
-│   ├── monitor.py
-│   ├── test_runner.py
-│   ├── visualizer.py
-│   └── main.py
-├── data/
-│   ├── test_results.csv
-│   ├── scenario_fast.csv
-│   ├── scenario_slow.csv
-│   └── metrics.json
-├── figures/
-│   ├── attack_timeline.png
-│   ├── error_progression.png
-│   └── scenario_comparison.png
-├── docs/
-│   ├── Final_Report.pdf
-│   └── README.md
-└── requirements.txt
+error-handling-can-busoff-attack/
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ docs/
+│  ├─ report_outline.md
+│  ├─ project_Draft.pdf
+│  └─ final_report.pdf
+├─ src/
+│  ├─ __init__.py
+│  ├─ ecu.py              # one ECU class with role: normal/attacker/victim
+│  ├─ simulator.py        # run_simulation(config)
+│  └─ config.py
+├─ experiments/
+│  └─ run_experiments.py  # all scenarios (baseline, attack, param variation)
+├─ analysis/
+│  └─ analysis_busoff.ipynb  # or analysis.py if you prefer scripts
+└─ logs/
+   ├─ baseline/
+   └─ attack/
 ```
